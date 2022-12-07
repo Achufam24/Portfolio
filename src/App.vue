@@ -8,8 +8,8 @@
   <div class="relative">
     <Nav/>
   </div>
-      <img class="absolute w-38 h-32 bottom-2" src="./assets/profile.svg" alt="profile">
-      <img class="absolute w-38 h-32 right-1 bottom-2" src="./assets/profile2.svg" alt="profile">
+      <img class="hidden lg:block lg:absolute lg:left-0 lg:w-38 lg:h-32 md:block lg:bottom-2 md:absolute md:w-38 md:h-32 md:right-1 md:bottom-2" src="./assets/profile.svg" alt="profile">
+      <img class="hidden lg:block lg:absolute lg:w-38 md:block lg:right-0  lg:h-32 lg:bottom-2 md:absolute md:w-38 md:h-32 md:right-1 md:bottom-2" src="./assets/profile2.svg" alt="profile">
 </template>
 
 <style>

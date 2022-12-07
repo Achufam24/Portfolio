@@ -1,28 +1,48 @@
 <template>
-    <div class="pt-28 lg:px-24 px-8 home">
+    <div class="lg:pt-28 pt-5 lg:px-24 px-0 home">
     <div class="space-y-8">
         <h1 class="text-2xl lg:text-5xl"> Hi I'm <span class="name">Achu-ulim Agbama...</span></h1>
         <div class="typewriter">
             <p class="text2xl lg:text-5xl"><span class="typed-text"></span><span class="cursor blink">&nbsp;</span></p>
         </div>
         <div id="text"></div>
-    <p>I'm a Frontend Developer providing exceptional web experiences to clients around the world. Currently, I'm focused on building responsive front-end web apps while learning game development as a hobby.</p>
+    <p>I'm a Software Developer providing exceptional web experiences to clients around the world. Currently, I'm focused on building web apps, mobile applications and writing articles.</p>
+    <div class="my-6">
+        <p>Check My Skills on <a href="https://github.com/Achufam24">Github</a> and <a href="https://medium.com/@achuulimagbama">Medium</a></p>
     </div>
-    <div class="py-6 flex flex-row space-x-8">
+    </div>
+    <div class="lg:py-6 lg:flex lg:flex-row lg:space-x-8 mt-9 hidden">
         <div class="icon">
-            <i class="bi bi-linkedin"></i>
+            <a href="https://www.linkedin.com/in/achu-agbama/"><i class="bi bi-linkedin"></i></a>
         </div>
         <div class="icon">
-            <i class="bi bi-github"></i>
+            <a href="https://github.com/Achufam24"><i class="bi bi-github"></i></a>
         </div>
         <div class="icon">
-            <i class="bi bi-twitter"></i>
+            <a href="https://twitter.com/agbama_achu"><i class="bi bi-twitter"></i></a>
         </div>
         <div class="icon">
-            <i class="bi bi-medium"></i>
+            <a href="https://medium.com/@achuulimagbama"><i class="bi bi-medium"></i></a>
         </div>
         <div class="icon">
-            <i class="bi bi-instagram"></i>
+            <a href="https://www.instagram.com/achuulim/"><i class="bi bi-instagram"></i></a>
+        </div>
+    </div>
+    <!--Mobile-->
+    <div class="flex flex-row space-x-4 py-6 mt-4 lg:hidden">
+        <div class="icon">
+            <a href="https://www.linkedin.com/in/achu-agbama/"><i class="bi bi-linkedin"></i></a>
+        </div>
+        <div class="icon">
+            <a href="https://github.com/Achufam24"><i class="bi bi-github"></i></a>
+        </div>
+    </div>
+    <div class="flex flex-row space-x-4 lg:hidden">
+        <div class="icon">
+            <a href="https://twitter.com/agbama_achu"><i class="bi bi-twitter"></i></a>
+        </div>
+        <div class="icon">
+            <a href="https://medium.com/@achuulimagbama"><i class="bi bi-medium"></i></a>
         </div>
     </div>
     </div>
@@ -100,4 +120,12 @@ p{
 .icon i{
     color: #F0EDCC;
 }
+/* @media only screen and (max-width: 600px) {
+  .home{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  }
+} */
 </style>
