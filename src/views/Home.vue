@@ -7,11 +7,11 @@
         </div>
         <div id="text"></div>
     <p>I'm a Software Developer providing exceptional web experiences to clients around the world. Currently, I'm focused on building web apps, mobile applications and writing articles.</p>
-    <div class="my-6">
+    <div class="my-8">
         <p>Check My Skills on <a href="https://github.com/Achufam24">Github</a> and <a href="https://medium.com/@achuulimagbama">Medium</a></p>
     </div>
     </div>
-    <div class="lg:py-6 lg:flex lg:flex-row lg:space-x-8 mt-9 hidden">
+    <div class="lg:py-6 lg:flex lg:flex-row lg:space-x-8 mt-10 hidden">
         <div class="icon">
             <a href="https://www.linkedin.com/in/achu-agbama/"><i class="bi bi-linkedin"></i></a>
         </div>
